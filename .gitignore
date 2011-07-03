@@ -2,4 +2,7 @@
 /Temp/
 /Library/
 /Assembly-*
+/*.sln
+/*.csproj
+
 
