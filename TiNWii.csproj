@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>9.0.21022</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{229B8342-29F6-3479-7E29-643B9F1B76A6}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace>Irrelevant</RootNamespace>
+	<AssemblyName>Irrelvant</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_3_0;UNITY_3_3;UNITY_EDITOR;ENABLE_PROFILER;UNITY_STANDALONE_OSX;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+	<Reference Include="Boo.Lang">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/Boo.Lang.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityScript">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/UnityScript.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Code\Deformatory\CentralDeformatory.cs" />
+     <Compile Include="Assets\Code\Deformatory\Deformable.cs" />
+     <Compile Include="Assets\Code\Deformatory\Deformer.cs" />
+     <Compile Include="Assets\Code\Deformatory\HandDetector.cs" />
+     <Compile Include="Assets\Code\Deformatory\MeshDeform.cs" />
+     <Compile Include="Assets\Code\Deformatory\UserGuiDeformatory.cs" />
+     <Compile Include="Assets\Code\Physics\BallAnimator.cs" />
+     <Compile Include="Assets\Code\Physics\Bouncer.cs" />
+     <Compile Include="Assets\Code\Physics\CentralPhysics.cs" />
+     <Compile Include="Assets\Code\Physics\SelectShape.cs" />
+     <Compile Include="Assets\Code\Physics\UserGuiPhysics.cs" />
+     <Compile Include="Assets\Code\Testing\CollisionObject.cs" />
+     <None Include="Assets\Code\Testing\DragRigidbody.js" />
+     <None Include="Assets\Code\Testing\KeyboardOrbit.js" />
+     <Compile Include="Assets\Code\Carryable.cs" />
+     <Compile Include="Assets\Code\FrameRate.cs" />
+     <Compile Include="Assets\Code\NiteOpenNet.cs" />
+     <Compile Include="Assets\Code\SizeShape.cs" />
+     <Compile Include="Assets\Code\Utils.cs" />
+     <None Include="Assets\Materials\VertexColor.shader" />
+     <Compile Include="Assets\MeshDeforming\MoveTest.cs" />
+     <Compile Include="Assets\MeshDeforming\ReMesh.cs" />
+     <None Include="Assets\Plugins\Emgu.CV.xml" />
+     <None Include="Assets\Plugins\Emgu.Util.xml" />
+     <None Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" />
+     <None Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\FPSInputController.js" />
+     <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+     <None Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\PlatformInputController.js" />
+     <None Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonCamera.js" />
+     <None Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonController.js" />
+     <None Include="Assets\Standard Assets\Scripts\Camera Scripts\SmoothFollow.js" />
+     <None Include="Assets\Standard Assets\Scripts\Camera Scripts\SmoothLookAt.js" />
+     <None Include="Assets\Standard Assets\Skyboxes\ skybox info.txt" />
+     <Compile Include="Assets\iTweenEditor\Editor\iTweenEventDataEditor.cs" />
+     <Compile Include="Assets\iTweenEditor\Editor\iTweenPathEditor.cs" />
+     <Compile Include="Assets\iTweenEditor\Helper Classes\EventParamMappings.cs" />
+     <Compile Include="Assets\iTweenEditor\Helper Classes\Vector3OrTransform.cs" />
+     <Compile Include="Assets\iTweenEditor\Helper Classes\Vector3OrTransformArray.cs" />
+     <None Include="Assets\iTweenEditor\ReadMe!\ReadMe!.txt" />
+     <Compile Include="Assets\iTweenEditor\Sample\MoveSample.cs" />
+     <Compile Include="Assets\iTweenEditor\Sample\RotateSample.cs" />
+     <Compile Include="Assets\iTweenEditor\Sample\SampleInfo.cs" />
+     <None Include="Assets\iTweenEditor\README.txt" />
+     <Compile Include="Assets\iTweenEditor\iTween.cs" />
+     <Compile Include="Assets\iTweenEditor\iTweenEvent.cs" />
+     <Compile Include="Assets\iTweenEditor\iTweenPath.cs" />
+     <None Include="Assets\OpenNI.xml" />
+ <Reference Include="Assets\Plugins\Emgu.CV">
+ <HintPath>Assets\Plugins\Emgu.CV.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\Plugins\Emgu.Util">
+ <HintPath>Assets\Plugins\Emgu.Util.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\Plugins\OpenNI.net">
+ <HintPath>Assets\Plugins\OpenNI.net.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\Plugins\System.Drawing">
+ <HintPath>Assets\Plugins\System.Drawing.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\Plugins\XnVNite.net">
+ <HintPath>Assets\Plugins\XnVNite.net.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
+	

@@ -1,0 +1,36 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Assembly-CSharp" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Code" expanded="True">
+                <Node name="Deformatory" expanded="True" />
+                <Node name="Physics" expanded="True">
+                  <Node name="Bouncer.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+          <Node name="Assembly-UnityScript-firstpass" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Standard Assets" expanded="True">
+                <Node name="Character Controllers" expanded="True">
+                  <Node name="Sources" expanded="True">
+                    <Node name="Scripts" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
